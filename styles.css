@@ -70,12 +70,18 @@ nav {
 .fas {
   font-size: 2rem;
   cursor: pointer;
+  color: var(--color-primary);
 }
 
 .fa-times {
   position: absolute;
-  transform: translateY(-200%);
+  /* transform: translateY(-200%); */
   transition: all 0.5s;
+  font-size: 2.5rem;
+  top: 1.8rem;
+  right: 3.4rem;
+  z-index: 3;
+  display: none;
 }
 
 .fa-search {
@@ -84,14 +90,14 @@ nav {
 
 .search {
   position: absolute;
-  top: 6rem;
+  top: 1rem;
   right: 2rem;
   width: 4.5rem;
   height: 4rem;
   background-color: var(--color-primary);
   padding: 5px 8px;
   border-radius: 5px;
-  transform: translateX(200%);
+  /* transform: translateX(200%); */
   transition: all 1s ease-in-out;
 }
 
